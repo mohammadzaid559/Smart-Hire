@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "mongodb+srv://mohammadzaid559_db_user:zaidSmartHire@cluster0.kvdmizu.mongodb.net/?appName=Cluster0",
 });
 
 export default API;
