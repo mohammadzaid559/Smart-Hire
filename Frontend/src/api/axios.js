@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "mongodb+srv://mohammadzaid559_db_user:zaidSmartHire@cluster0.kvdmizu.mongodb.net/?appName=Cluster0",
+  baseURL: "import.meta.env.VITE_API_URL",
 });
 
 export default API;
